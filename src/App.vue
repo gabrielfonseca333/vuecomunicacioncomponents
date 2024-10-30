@@ -1,18 +1,18 @@
 <template>
 <div>
-    <PadreNumeros/>
+    <ComicsComponent/>
 </div>
 
 </template>
 
 <script>
-import PadreNumeros from './components/PadreNumeros.vue'
+import ComicsComponent from './components/ComicsComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
-    PadreNumeros
+    ComicsComponent
   }
 }
 </script>
@@ -25,4 +25,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+
+
+
 </style>
