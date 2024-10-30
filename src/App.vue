@@ -1,18 +1,18 @@
 <template>
 <div>
-    <ComicsComponent/>
+    <CheckboxEjemplo/>
 </div>
 
 </template>
 
 <script>
-import ComicsComponent from './components/ComicsComponent.vue'
+import CheckboxEjemplo from './components/CheckboxEjemplo.vue'
 
 
 export default {
   name: 'App',
   components: {
-    ComicsComponent
+    CheckboxEjemplo
   }
 }
 </script>
